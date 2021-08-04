@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            scaffoldBackgroundColor: Colors.white,
+            //scaffoldBackgroundColor: Colors.white,
           
             textTheme: GoogleFonts.poppinsTextTheme(
               Theme.of(context).textTheme,
