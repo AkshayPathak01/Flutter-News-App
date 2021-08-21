@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.supercoder.blocnews">
    <application
-        android:label="blocnews"
+        android:label="News"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
