@@ -1,13 +1,23 @@
-A new Flutter project.
+# FLUTTER NEWS APP
+## News App developed with Flutter and API from [newsapi.org](https://newsapi.org/)
 
-## Getting Started
+## Feature
+- [X] List daily news.
+- [X] Display daily Top Headlines.
+- [X] Go to detail news website.
 
-This project is a starting point for a Flutter application.
+## Technology
+1. http<br />
+The http package provides the simplest way to fetch data from the internet.
+2. Flutter BLoC<br />
+ BLOC gives us the possibility to pass data between our repositories and widgets and update the UI whenever data changes, without having to manually update the state.
+3. flutter_web_browser<br/>
+ A flutter plugin to open a web page with Chrome Custom Tabs & SFSafariViewController.
+ ## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Flash screen          |  Home Screen  |  Dailog Box
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/AkshayPathak01/Flutter-News-App/tree/master/assets/Screenshot/Screenshot1.jpeg?raw=true)|![](https://github.com/AkshayPathak01/Flutter-News-App/tree/master/assets/Screenshot/Screenshot2.jpeg?raw=true)|![](https://github.com/AkshayPathak01/Flutter-News-App/tree/master/assets/Screenshot/Screenshot3.jpeg?raw=true) 
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
