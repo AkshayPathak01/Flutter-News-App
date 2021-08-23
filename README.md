@@ -15,9 +15,13 @@ The http package provides the simplest way to fetch data from the internet.
  A flutter plugin to open a web page with Chrome Custom Tabs & SFSafariViewController.
  ## Screenshots
 
-Flash screen          |  Home Screen  |  Dailog Box
+Flash screen          |  Home Screen  |  Web View
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/AkshayPathak01/Flutter-News-App/tree/master/assets/Screenshot/Screenshot1.jpeg?raw=true)|![](https://github.com/AkshayPathak01/Flutter-News-App/tree/master/assets/Screenshot/Screenshot2.jpeg?raw=true)|![](https://github.com/AkshayPathak01/Flutter-News-App/tree/master/assets/Screenshot/Screenshot3.jpeg?raw=true) 
+![](https://github.com/AkshayPathak01/Flutter-News-App/blob/master/assets/Screenshot/Screenshot1.jpeg?raw=true)|![](https://github.com/AkshayPathak01/Flutter-News-App/blob/master/assets/Screenshot/Screenshot2.jpeg?raw=true)|![](https://github.com/AkshayPathak01/Flutter-News-App/blob/master/assets/Screenshot/Screenshot3.jpeg?raw=true) 
+
+
+
+
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
