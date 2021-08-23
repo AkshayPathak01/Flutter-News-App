@@ -27,11 +27,27 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
         body: Center(
             child: Container(
-      width: width * 0.6,
-      height: width * 0.6,
-      child: Image.asset(
-        "assets/news.png",
-        fit: BoxFit.contain,
+               width: width * 0.8,
+            height: width * 0.8,
+           
+      child: Column(
+        children: [
+          Container(
+            width: width * 0.6,
+            height: width * 0.6,
+            child: Image.asset(
+              "assets/news.png",
+              fit: BoxFit.contain,
+            ),
+          ),
+          Text(
+            "News App",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 14,
+            ),
+          )
+        ],
       ),
     )));
   }

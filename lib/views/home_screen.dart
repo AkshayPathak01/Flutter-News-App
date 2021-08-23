@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(
                       margin: EdgeInsets.only(left: width * 0.03),
                       child: Text(
-                        "Top Stories".toUpperCase(),
+                        "Top Headlines".toUpperCase(),
                         style: TextStyle(
                             fontSize: 22,
                             fontWeight: FontWeight.bold,
@@ -207,6 +207,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     Container(
                                       //width: width * 0.3,
                                       height: 160,
+
                                       decoration: BoxDecoration(
                                           borderRadius: BorderRadius.only(
                                             topLeft: Radius.circular(10),
@@ -227,7 +228,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       height: 8,
                                     ),
                                     Container(
-                                      height: 80,
+                                      height: 60,
                                       //width: width * 0.55,
                                       padding: EdgeInsets.symmetric(
                                           vertical: height * 0.01),
@@ -238,10 +239,44 @@ class _HomeScreenState extends State<HomeScreen> {
                                           color: Colors.black,
                                           fontSize: 14,
                                         ),
-                                        maxLines: 3,
+                                        maxLines: 2,
                                       ),
                                     ),
-                                   /* Container(
+                                    SizedBox(
+                                      height: 8,
+                                    ),
+                                    Container(
+                                      height: 30,
+                                      //width: width * 0.55,
+                                      padding: EdgeInsets.symmetric(
+                                          vertical: height * 0.01),
+                                      child: Row(children: [
+                                        SizedBox(width: 15),
+                                        Text(
+                                          _articleList[index].source.name,
+                                          overflow: TextOverflow.clip,
+                                          style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 9,
+                                          ),
+                                          maxLines: 1,
+                                        ),
+                                        SizedBox(width: 15),
+                                        Text(
+                                          _articleList[index]
+                                              .publishedAt
+                                              .substring(0, 10),
+                                          overflow: TextOverflow.clip,
+                                          style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 9,
+                                          ),
+                                          maxLines: 1,
+                                        ),
+                                      ]),
+                                    ),
+
+                                    /* Container(
                                       height: 40,
                                       //width: width * 0.55,
                                       child: Text(
@@ -275,5 +310,14 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           )),
     );
+    // ignore: dead_code
+    FloatingActionButton(
+      onPressed: _refresh,
+      child: new Icon(Icons.refresh),
+    );
+  }
+
+  void _refresh() {
+    setState(() {});
   }
 }
